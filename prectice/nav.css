@@ -1,0 +1,123 @@
+*{
+    margin: -26px;
+    padding: 26px;
+    box-sizing: border-box;
+    
+    
+
+}
+
+li{
+    color: aliceblue;
+    background-color: black;
+    border: 1px solid white;
+    list-style-type: none;
+    margin: -3vh 0vw;
+    height: 12vh;
+    width: 25vw;
+    text-align: center;
+    justify-content: center;
+    justify-items:center ;
+    transform: rotate(0deg);
+   
+
+
+}
+a{
+    color: white;
+    /* border: 1px solid white; */
+    padding: 0px;
+    font-size: 21px;
+
+    
+
+    
+}
+a:hover{
+    box-shadow: 5px 2px 10px white;
+    border: 1px solid white;
+    text-shadow: 0px 0px 10px red;
+    padding: 0px 0px;
+}
+div.nav{
+    
+    border: 1px solid white;
+    overflow: hidden;
+    margin: -32px;
+    height: 50vh;
+    width: 29vw;
+/*     
+    animation-name:landing ;
+    animation-iteration-count:1 ;
+    animation-delay: 1s;
+    animation-fill-mode:forwards ;
+    animation-direction:normal ;
+    animation-duration: 2s; */
+
+
+}
+
+@keyframes landing{
+    from{
+        width: 10vw;
+        
+
+    }to{
+        width: 29vw;
+        
+
+    }
+}
+li:nth-child(1){
+    width: 10vw;
+    height: 14vh;
+    animation-name:landing ;
+    animation-iteration-count:1 ;
+    animation-delay: 0.5s;
+    animation-fill-mode:forwards ;
+    animation-direction:normal ;
+    animation-duration: 2s;
+    width: 10vw;
+
+}
+li:nth-child(2){
+    animation-name:landing ;
+    animation-iteration-count:1 ;
+    animation-delay: 0.8s;
+    animation-fill-mode:forwards ;
+    animation-direction:normal ;
+    animation-duration: 2s;
+    width: 10vw;
+
+}
+li:nth-child(3){
+    animation-name:landing ;
+    animation-iteration-count:1 ;
+    animation-delay: 1.4s;
+    animation-fill-mode:forwards ;
+    animation-direction:normal ;
+    animation-duration: 2s;
+    width: 10vw;
+
+}
+li:nth-child(4){
+    animation-name:landing ;
+    animation-iteration-count:1 ;
+    animation-delay: 1.8s;
+    animation-fill-mode:forwards ;
+    animation-direction:normal ;
+    animation-duration: 2s;
+    width: 10vw;
+
+}
+li:nth-child(5){
+    animation-name:landing ;
+    animation-iteration-count:1 ;
+    animation-delay: 2s;
+    animation-fill-mode:forwards ;
+    animation-direction:normal ;
+    animation-duration: 2s;
+    width: 10vw;
+
+}
+

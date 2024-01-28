@@ -153,7 +153,7 @@ p{
 
  
 }
-@keyframes text-left{
+@keyframes {
     from{
         opacity:0 ;
         transform: translateX(133px) 
