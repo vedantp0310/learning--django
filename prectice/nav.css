@@ -78,6 +78,7 @@ li:nth-child(1){
     animation-direction:normal ;
     animation-duration: 2s;
     width: 10vw;
+    background-color: rgb(152, 106, 25);
 
 }
 li:nth-child(2){
@@ -88,6 +89,7 @@ li:nth-child(2){
     animation-direction:normal ;
     animation-duration: 2s;
     width: 10vw;
+    background-color: rgb(15, 1, 4);
 
 }
 li:nth-child(3){
@@ -98,6 +100,7 @@ li:nth-child(3){
     animation-direction:normal ;
     animation-duration: 2s;
     width: 10vw;
+    background-color: rgb(14, 9, 107);
 
 }
 li:nth-child(4){
@@ -108,6 +111,7 @@ li:nth-child(4){
     animation-direction:normal ;
     animation-duration: 2s;
     width: 10vw;
+    background-color: rgb(97, 76, 13);
 
 }
 li:nth-child(5){
@@ -118,6 +122,7 @@ li:nth-child(5){
     animation-direction:normal ;
     animation-duration: 2s;
     width: 10vw;
+    background-color: rgb(29, 114, 55);
 
 }
 
