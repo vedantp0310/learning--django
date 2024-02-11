@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+}
+
+
+
+#container{
+    height: 700px;
+    width:300px ;
+    border: 1px solid white;
+    padding: 20px;
+}
+#red,#green{
+    
+}

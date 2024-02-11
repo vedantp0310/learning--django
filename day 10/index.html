@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logine</title>
+    <style>
+       
+       h1 {
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        }
+        table{
+            color: black;
+            background: white;
+
+
+        }
+        tr{
+            border: 1px solid red;
+
+        }
+        button{
+            margin: 20px;
+        }
+
+
+    
+    </style>
+
+</head>
+<body>
+    <center><h1>logine page</h1></center>
+    
+    <center><table>
+        <tr>
+            <td>full name</td>
+        <td ><input type="fname" id="fname" placeholder="fname"></td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td><input type="email" id="email" placeholder="email"></td>
+    </tr>
+    <tr>
+        <td>phone</td>
+        <td><input type="tel" id="p-no" placeholder="p-no"></td>
+    </tr>
+    <tr>
+        <td>password</td>
+        <td><input type="password" id="pass" placeholder="pass"></td>
+    </tr>
+    <tr>
+        <td>date of birth</td>
+        <td><input type="date" id="bod" placeholder="bod"></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        <button onclick="StoreData()">
+            <center>submit</center>
+        </button>
+    </td>
+    </tr>
+</table>
+</center>
+<script>
+    
+ function StoreData(){
+    
+    let fname = document.getElementById("fname")
+    let email = document.getElementById("email")
+    let tel = document.getElementById("p-no")
+    let password = document.getElementById("pass")
+    let date = document.getElementById("dob")
+ 
+
+    let data =[fname,email,tel,password,date]
+    let counter = 0
+    let final_data =[]
+    data.map((d)=>{
+        if(!d.value){
+            d.style.border = "1px solid red"
+        }else{
+            d.style.border = "1px solid grey"
+            final_data[counter] = d.value
+            counter++
+        }
+    })
+    console.log(final_data)
+
+
+}
+    
+ 
+
+
+
+
+
+
+
+
+    
+
+    
+    
+</script>
+
+
+</body>
+</html>
