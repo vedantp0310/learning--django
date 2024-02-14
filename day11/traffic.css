@@ -4,6 +4,7 @@ body{
     align-items: center;
     justify-items: center;
     background-color: black;
+    
 }
 
 
@@ -15,5 +16,31 @@ body{
     padding: 20px;
 }
 #red,#green{
-    
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+#red{
+    border: 1px soild red;
+    background-color: red;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    box-shadow: 0px 0px 30px red;
+    opacity: 1;
+
+}
+
+#green{
+    border: 1px solid green;
+    background-color:green ;
+    box-shadow:  0px 0px 30px green ;
+    /* opacity: 0; */
+}
+h1{
+    border: 1px solid white;
+    color: wheat;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 30px;
+    font-weight: bold;
 }

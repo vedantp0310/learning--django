@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+#main_menu{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+
+}
+select{
+    margin-left: 234px;
+    font-size: medium;
+    font-weight: bold ;
+}
+h1{
+    text-shadow:4px 4px 30px  white;
+    margin-left: 36px;
+    margin-right: 10px;
+}
+div#breads, #panner, #deserts{
+    border: 1px solid white;
+    margin: 25px 17px;
+    padding: 8px 10px;
+
+}
