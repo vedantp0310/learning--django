@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .google-search {
+    text-align: center;
+  }
+  
+  .google-logo {
+    background: url('google-logo.png') center/contain no-repeat;
+    height: 100px;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 400px;
+    padding: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttons {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
